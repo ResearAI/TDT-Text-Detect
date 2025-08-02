@@ -105,7 +105,7 @@ python demo.py --interactive
 python demo.py --text "Your text" --no-report
 
 # Custom detection threshold
-python demo.py --text "Your text" --threshold 0.003
+python demo.py --text "Your text" --threshold -0.096
 ```
 
 #### Command Line Options
@@ -116,7 +116,7 @@ python demo.py --text "Your text" --threshold 0.003
 - `--interactive`: Run in interactive mode
 - `--output`: Custom path for PDF report (default: tdt_report_<timestamp>.pdf)
 - `--no-report`: Disable PDF report generation
-- `--threshold`: Detection threshold (default: 0.0023)
+- `--threshold`: Detection threshold (default: -0.096)
 
 #### Generated Report Features
 
@@ -187,5 +187,6 @@ These will be automatically downloaded on first use.
 3. **State-of-the-Art Performance**: Achieves significant improvements across all benchmarks while maintaining efficiency
 
 ## License
+
 
 MIT License - see [LICENSE](LICENSE) file for details.
