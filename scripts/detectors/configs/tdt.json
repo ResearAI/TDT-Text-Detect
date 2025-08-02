@@ -1,0 +1,12 @@
+{
+    "reference_model_name": "/home/wyx/model/falcon-7b",
+    "scoring_model_name": "/home/wyx/model/falcon-7b-instruct",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache",
+    "alpha": 1.0,
+    "beta": 0.1,
+    "ref_entropy": 5.0,
+    "enable_dynamic_threshold": true,
+    "extract_wavelet_features": true
+}

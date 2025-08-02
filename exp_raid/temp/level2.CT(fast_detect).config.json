@@ -1,0 +1,14 @@
+{
+  "detector": "fast_detect",
+  "fit_data": {
+    "samples": 4000,
+    "positives": 2000,
+    "fields": "content,generation",
+    "pos_mean": 0.7545696993210251,
+    "pos_std": 0.3551271712805966,
+    "neg_mean": 0.18951660574808862,
+    "neg_std": 0.22526906643997646
+  },
+  "threshold": 0.40892557306622496,
+  "pos_bigger": true
+}

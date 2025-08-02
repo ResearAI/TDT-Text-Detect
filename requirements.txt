@@ -1,0 +1,14 @@
+torch
+numpy
+transformers==4.28.1
+tqdm
+arxiv
+openai==1.17.0
+scikit-learn
+xlrd == 2.0.1
+PyWavelets>=1.4.0
+scipy>=1.10.0
+matplotlib>=3.5.0
+markdown>=3.4.0
+weasyprint>=60.0
+Pillow>=9.0.0

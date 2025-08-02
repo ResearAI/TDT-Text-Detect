@@ -1,0 +1,17 @@
+SYSTEM INFORMATION
+==================
+Date: Sun Aug  3 03:35:12 CST 2025
+Hostname: deeppatent
+OS: Linux deeppatent 5.4.0-144-generic #161-Ubuntu SMP Fri Feb 3 14:49:04 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+CPU: AMD EPYC 7542 32-Core Processor
+Memory: Total: 503Gi, Available: 471Gi
+GPU: NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB
+NVIDIA A100-SXM4-80GB, 550.90.07, 81920 MiB
+
+Python Environment:
+Python 3.11.13
+PyTorch: 2.7.0+cu126
+NumPy: 1.26.4
+SciPy: 1.16.0
+PyWavelets: 1.8.0
+Transformers: 4.53.3

@@ -1,0 +1,14 @@
+{
+  "detector": "t-detect",
+  "fit_data": {
+    "samples": 4000,
+    "positives": 2000,
+    "field": "generation",
+    "pos_mean": 0.14016248774528503,
+    "pos_std": 0.14113965050923727,
+    "neg_mean": 0.014523914098739625,
+    "neg_std": 0.06752476152286717
+  },
+  "threshold": 0.0718994140625,
+  "pos_bigger": true
+}

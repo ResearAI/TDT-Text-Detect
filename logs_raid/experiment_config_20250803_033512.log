@@ -1,0 +1,26 @@
+TDT (TEMPORAL DISCREPANCY TOMOGRAPHY) EXPERIMENT CONFIGURATION
+===============================================
+Date: Sun Aug  3 03:35:12 CST 2025
+Host: deeppatent
+User: air
+Working Directory: /home/wyx/air/agent/workspaces/e33fe939-95da-4209-8df2-3924356dcb6b/impl_IDEA-dsvf
+
+Environment:
+- Python: Python 3.11.13
+- GPU: Auto-detected by PyTorch
+
+Experimental Setup:
+- Data Path: ./benchmark/raid
+- Result Path: ./exp_raid
+- Datasets: raid.dev,raid.test,nonnative.test
+- Detectors: fast_detect,binoculars,t-detect,tdt
+
+Method: Temporal Discrepancy Tomography (TDT)
+- Transform: Continuous Wavelet Transform (CWT) with Morlet wavelet
+- Scales: 12 (morphological: 1-4, syntactic: 5-8, discourse: 9-12)
+- Features: Normalized energy ratios at three linguistic levels
+- Bandwidth: Scott's rule for kernel density estimation
+
+Baseline Comparison:
+- Baseline results from: baseline_result.md
+- Baseline RAID T-Detect ALL: AUROC=0.798, F1=0.76, TPR@5%FPR=0.55

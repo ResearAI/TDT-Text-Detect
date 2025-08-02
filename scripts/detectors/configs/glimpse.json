@@ -1,0 +1,12 @@
+{
+    "api_base": "http://127.0.0.1:8080/v1",
+    "api_key": "1",
+    "api_version": "1",
+    "scoring_model_name": "deepseek-reasoner",
+    "max_token_observed": 512,
+    "estimator": "geometric",
+    "prompt": "prompt3",
+    "rank_size": 1000,
+    "top_k": 5,
+    "cache_dir": "./cache"
+}

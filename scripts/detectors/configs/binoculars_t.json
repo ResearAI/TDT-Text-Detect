@@ -1,0 +1,11 @@
+{
+    "observer_name": "tiiuae/falcon-7b",
+    "performer_name": "tiiuae/falcon-7b-instruct",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache",
+    "nu": 5.0,
+    "alpha": 1.0,
+    "beta": 0.1,
+    "ref_entropy": 5.0
+}

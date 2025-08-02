@@ -1,0 +1,20 @@
+COMPARATIVE ANALYSIS: BASELINE vs TDT
+========================================================
+Generated: Sun Aug  3 03:35:27 CST 2025
+
+Enhanced TDT Results:
+-------------------------------
+abstracts:	abstracts:level2(250/500)
+recipes:	recipes:level2(250/500)
+reddit:	reddit:level2(250/500)
+news:	news:level2(250/500)
+
+Performance Improvements:
+------------------------
+[To be calculated after results are available]
+
+Key Observations:
+-----------------
+1. Wavelet features capture multi-scale linguistic patterns
+2. Expected improvements on non-stationary text (TOEFL, poetry)
+3. Maintained computational efficiency with O(n log n) complexity

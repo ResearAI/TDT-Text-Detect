@@ -1,0 +1,59 @@
+Processing ['raid.dev', 'raid.test', 'nonnative.test'] ...
+Fit threshold on 4000 samples for fast_detect.
+{'detector': 'fast_detect', 'fit_data': {'samples': 4000, 'positives': 2000, 'field': 'generation', 'pos_mean': 2.843597400665283, 'pos_std': 2.8726826235351357, 'neg_mean': 0.34422008132934573, 'neg_std': 1.4883662146005985}, 'threshold': 1.4697265625, 'pos_bigger': True}
+Fit threshold on 4000 samples for binoculars.
+{'detector': 'binoculars', 'fit_data': {'samples': 4000, 'positives': 2000, 'field': 'generation', 'pos_mean': 0.8324754504561425, 'pos_std': 0.16602871926756924, 'neg_mean': 0.9842590507864952, 'neg_std': 0.06790206285280116}, 'threshold': 0.9388646483421326, 'pos_bigger': False}
+Fit threshold on 4000 samples for t-detect.
+{'detector': 't-detect', 'fit_data': {'samples': 4000, 'positives': 2000, 'field': 'generation', 'pos_mean': 0.14016248774528503, 'pos_std': 0.14113965050923727, 'neg_mean': 0.014523914098739625, 'neg_std': 0.06752476152286717}, 'threshold': 0.0718994140625, 'pos_bigger': True}
+Fit threshold on 4000 samples for tdt.
+{'detector': 'tdt', 'fit_data': {'samples': 4000, 'positives': 2000, 'field': 'generation', 'pos_mean': -0.21383123390252168, 'pos_std': 0.12332013068468073, 'neg_mean': -0.06416700155515896, 'neg_std': 0.05268650348035474}, 'threshold': -0.09633050877193311, 'pos_bigger': False}
+reviews:	reviews:level2(250/500)
+fast_detect:	0.810/0.77/0.51
+binoculars:	0.812/0.78/0.52
+t-detect:	0.812/0.77/0.54
+tdt:	0.864/0.78/0.56
+books:	books:level2(250/500)
+fast_detect:	0.845/0.80/0.57
+binoculars:	0.850/0.81/0.60
+t-detect:	0.851/0.81/0.62
+tdt:	0.896/0.82/0.65
+poetry:	poetry:level2(250/500)
+fast_detect:	0.818/0.78/0.59
+binoculars:	0.826/0.79/0.61
+t-detect:	0.827/0.79/0.64
+tdt:	0.894/0.81/0.67
+ALL:	None:level2(2091/4182)
+fast_detect:	0.792/0.74/0.52
+binoculars:	0.800/0.76/0.55
+t-detect:	0.798/0.76/0.55
+tdt:	0.855/0.78/0.58
+wiki:	wiki:level2(250/500)
+fast_detect:	0.803/0.76/0.52
+binoculars:	0.804/0.75/0.54
+t-detect:	0.801/0.75/0.55
+tdt:	0.838/0.76/0.58
+TOEFL:	TOEFL:level2(91/182)
+fast_detect:	0.475/0.30/0.08
+binoculars:	0.497/0.49/0.08
+t-detect:	0.497/0.47/0.10
+tdt:	0.496/0.46/0.10
+abstracts:	abstracts:level2(250/500)
+fast_detect:	0.821/0.77/0.58
+binoculars:	0.826/0.77/0.64
+t-detect:	0.827/0.78/0.66
+tdt:	0.873/0.79/0.65
+recipes:	recipes:level2(250/500)
+fast_detect:	0.749/0.71/0.56
+binoculars:	0.759/0.72/0.60
+t-detect:	0.752/0.72/0.56
+tdt:	0.875/0.80/0.66
+reddit:	reddit:level2(250/500)
+fast_detect:	0.794/0.75/0.42
+binoculars:	0.811/0.78/0.48
+t-detect:	0.807/0.78/0.48
+tdt:	0.840/0.78/0.53
+news:	news:level2(250/500)
+fast_detect:	0.761/0.73/0.48
+binoculars:	0.768/0.75/0.52
+t-detect:	0.767/0.75/0.52
+tdt:	0.869/0.80/0.61

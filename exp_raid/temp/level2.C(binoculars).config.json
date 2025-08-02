@@ -1,0 +1,14 @@
+{
+  "detector": "binoculars",
+  "fit_data": {
+    "samples": 4000,
+    "positives": 2000,
+    "field": "content",
+    "pos_mean": 0.8557617523819208,
+    "pos_std": 0.12212339569690138,
+    "neg_mean": 0.9600220632255078,
+    "neg_std": 0.06938123864746436
+  },
+  "threshold": 0.9295589327812195,
+  "pos_bigger": false
+}

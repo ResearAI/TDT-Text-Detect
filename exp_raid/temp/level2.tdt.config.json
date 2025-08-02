@@ -1,0 +1,14 @@
+{
+  "detector": "tdt",
+  "fit_data": {
+    "samples": 4000,
+    "positives": 2000,
+    "field": "generation",
+    "pos_mean": -0.21383123390252168,
+    "pos_std": 0.12332013068468073,
+    "neg_mean": -0.06416700155515896,
+    "neg_std": 0.05268650348035474
+  },
+  "threshold": -0.09633050877193311,
+  "pos_bigger": false
+}
